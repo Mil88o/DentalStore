@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Dental Store Szczecin</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Dental Store Szczecin</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#about">O nas</a></li>
+            <li><a href="#products">Nasze Produkty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="#location">Gdzie nas znaleźć</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <!-- About Section -->
+        <div class="grid" id="about">
+            <section style="background-image: url('images/whiteteeth.jpg'); background-size: cover; color: white;">
+                <hgroup>
+                    <h2>O Nas</h2>
+                    <h3>Profesjonalna hurtownia dentystyczna</h3>
+                </hgroup>
+                <p>Jesteśmy firmą oferującą zaawansowane rozwiązania dla dentystów. Zapewniamy najwyższej jakości sprzęt i materiały dla klinik stomatologicznych.</p>
+                <button type="button" onclick="window.location='#products';">Dowiedz się więcej</button>
+            </section>
+        </div>
+
+        <!-- Products Section -->
+        <div class="grid" id="products">
+            <section>
+                <hgroup>
+                    <h2>Nasze Produkty</h2>
+                    <h3>Nowoczesne wyposażenie gabinetów dentystycznych</h3>
+                </hgroup>
+             <!-- Product Items -->
+             <div class="product-grid">
+                <figure class="product-item">
+                    <img src="images/skaner.jpg" alt="Skanner wewnątrzustny Cameo 3 Elegant">
+                    <figcaption>Skanner wewnątrzustny Cameo 3 Elegant</figcaption>
+                </figure>
+                <figure class="product-item">
+                    <img src="images/katnica.jpg" alt="Kątnica Synea Fusion">
+                    <figcaption>Kątnica Synea Fusion WG-56 LT 1:1 - Zestaw</figcaption>
+                </figure>
+                <figure class="product-item">
+                    <img src="images/artykulator.jpg" alt="Artykulator Artex">
+                    <figcaption>Artykulator Artex Amann Girrbach - typ CN</figcaption>
+                </figure>
+                <figure class="product-item">
+                    <img src="images/graf.jpg" alt="G-PRINT 3D 1L">
+                    <figcaption>G-PRINT 3D 1L - Żywica z grafenem</figcaption>
+                </figure>
+            </div>            
+        </section>
+        </div>
+
+        <!-- Contact Section -->
+<!-- Contact Section -->
+<div class="grid" id="contact">
+    <section>
+        <hgroup>
+            <h2>Kontakt</h2>
+            <h3>Skontaktuj się z nami</h3>
+        </hgroup>
+        <p>Masz pytania? Zadzwoń lub napisz do nas!</p>
+        <div class="contact-info">
+            <p><i class="fas fa-phone-alt"></i> +48 123 456 789</p>
+            <p><i class="fas fa-envelope"></i> office@dentalstore.pl</p>
+            <a href="https://www.facebook.com/dentalstore.szczecin" target="_blank"><i class="fab fa-facebook-square"></i> DentalStore</a>
+        </div>
+    </section>
+</div>
+
+<div class="grid" id="location">
+    <section>
+        <hgroup>
+            <h2>Gdzie Nas Znaleźć</h2>
+            <h3>Nasza Lokalizacja</h3>
+        </hgroup>
+        <p>Odwiedź naszą siedzibę w Szczecinie:</p>
+        <div class="map-container">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.7378879564076!2d14.638975075430897!3d53.38373917192668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700a79443eb3ea3%3A0xc9205b3a5928d547!2sTorfowa%203b%2C%2070-772%20Szczecin!5e0!3m2!1spl!2spl!4v1706114761549!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+</div>
+
+
+
+    </main>
+    <footer class="container">
+        <small>
+            &copy; 2024 Denntal Store. All rights reserved.
+        </small>
+
+    </footer>
+    
+
+</body>
+</html>
